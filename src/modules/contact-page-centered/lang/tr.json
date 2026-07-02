@@ -1,0 +1,20 @@
+{
+  "title": "İletişim",
+  "subtitle": "Bu alt başlık iletişim sayfası başlığınızın altında görünür. Ziyaretçileri iletişime geçmeye teşvik etmek, müsaitliğinizi açıklamak veya müşteri hizmetlerine olan bağlılığınızı vurgulamak için kullanın. Promake ile markanızın iletişim tarzını yansıtacak şekilde özelleştirin.",
+  "emailTitle": "E-posta",
+  "phoneTitle": "Telefon",
+  "addressTitle": "Adres",
+  "nameLabel": "İsim",
+  "namePlaceholder": "Adınız",
+  "emailLabel": "E-posta",
+  "emailPlaceholder": "email@adresiniz.com",
+  "messageLabel": "Mesaj",
+  "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+  "submit": "Mesaj Gönder",
+  "sending": "Gönderiliyor...",
+  "success": "Mesajınız başarıyla gönderildi! En kısa sürede size döneceğiz.",
+  "error": "Bir şeyler yanlış gitti. Lütfen tekrar deneyin.",
+  "addFiles": "Dosya Ekle",
+  "maxFilesReached": "Maksimum dosya sayısına ulaşıldı",
+  "maxFilesLimit": "En fazla {{max}} kadar dosya ekleyebilirsiniz"
+}

@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "eyebrow": "Elden Teslim Güvencesiyle",
+    "title": "E-Devlet Onaylı Diploma Süreçlerinde Güven Veren Kurumsal Danışmanlık",
+    "description": "E-Devlet onaylı diploma, göstermelik diploma ve transkript dahil paket süreçlerinde hızlı, gizlilik garantili ve profesyonel destek sunuyoruz. 7.000₺ ön ödeme ile süreciniz başlatılır, ödeme sonrasında belgenizin dijital taslağı ücretsiz olarak boyutlandırılır.",
+    "badges": [
+      "E-Devlet süreci görünürlüğü",
+      "Transkript dahil paket",
+      "Hızlı ve gizlilik garantili hizmet"
+    ],
+    "primaryCta": "WhatsApp ile Hemen İletişime Geç",
+    "secondaryCta": "Detaylı İletişim Bilgileri",
+    "imageAlt": "Kurumsal eğitim danışmanlığı ofisinde resmi belge süreci",
+    "highlightLabel": "Süreç Başlangıcı",
+    "highlightTitle": "7.000₺ ön ödeme ile başlatılır",
+    "highlightDescription": "Ödeme sonrasında dijital taslak ücretsiz boyutlandırılır ve süreç görünürlüğü profesyonel şekilde yönetilir."
+  },
+  "services": {
+    "eyebrow": "Hizmet Alanları",
+    "title": "E-Devlet onaylı diploma ve göstermelik diploma çözümlerini net biçimde sunuyoruz",
+    "description": "Ziyaretçilerin karar sürecini kolaylaştıran açık hizmet başlıkları, belge odaklı süreç yönetimi ve kurumsal iletişim yaklaşımıyla ilerliyoruz.",
+    "items": [
+      {
+        "title": "E-Devlet Onaylı Diploma",
+        "description": "E-Devlet onaylı diploma süreçlerinde görünürlük, güven ve profesyonel yönlendirme sağlayan kurumsal danışmanlık desteği sunuyoruz."
+      },
+      {
+        "title": "Göstermelik Diploma",
+        "description": "Göstermelik diploma taleplerinde hızlı ilerleyen, gizlilik odaklı ve kontrollü bir süreç planlaması yürütüyoruz."
+      },
+      {
+        "title": "Lise, Ön Lisans, Lisans, Yüksek Lisans",
+        "description": "Lise, ön lisans, lisans ve yüksek lisans seviyelerinde farklı ihtiyaçlara uygun belge danışmanlığı hizmeti veriyoruz."
+      },
+      {
+        "title": "Transkript Dahil Paket",
+        "description": "Transkript dahil paket yapısıyla belge bütünlüğünü koruyan, dijital taslak boyutlandırma desteği içeren kapsamlı çözümler sunuyoruz."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Süreç ve Güven",
+    "title": "Belirsizliği azaltan, adım adım ilerleyen net bir süreç yapısı",
+    "description": "Her aşamada süreç görünürlüğü, hız, gizlilik ve teslim güveni ön planda tutulur. Böylece ziyaretçi ilk andan itibaren neyle karşılaşacağını açıkça görür.",
+    "imageAlt": "Düzenli resmi evrak ve onay sürecini gösteren kurumsal belge görseli",
+    "steps": [
+      {
+        "title": "7.000₺ Ön Ödeme ile Başlangıç",
+        "description": "Süreç 7.000₺ ön ödeme ile başlatılır ve ilk aşamadan itibaren profesyonel iletişim akışı devreye alınır."
+      },
+      {
+        "title": "Ücretsiz Dijital Taslak Boyutlandırma",
+        "description": "Ödeme sonrasında belgenizin dijital taslağı ücretsiz olarak boyutlandırılır ve onay öncesi netlik sağlanır."
+      },
+      {
+        "title": "E-Devlet Süreci Görünürlüğü",
+        "description": "E-Devlet onaylı diploma süreçlerinde görünürlük ve kontrol hissi korunur; ziyaretçi sürecin ciddiyetini net biçimde hisseder."
+      },
+      {
+        "title": "Elden Teslim Güvencesi",
+        "description": "Elden Teslim Güvencesiyle yaklaşımı, teslim aşamasında güven duygusunu güçlendiren önemli bir kurumsal taahhüt olarak öne çıkar."
+      }
+    ]
+  },
+  "trust": {
+    "eyebrow": "Kurumsal Güven Katmanı",
+    "title": "Güvenilir, hızlı ve gizlilik garantili hizmet yaklaşımı",
+    "description": "E-Devlet onaylı diploma ve göstermelik diploma süreçlerinde kurumsal dil, düzenli bilgi akışı ve profesyonel iletişimle otorite hissi oluşturuyoruz.",
+    "items": [
+      {
+        "title": "Gizlilik Garantili İletişim",
+        "description": "Tüm görüşmeler kontrollü, dikkatli ve gizlilik odaklı biçimde yürütülür; ziyaretçi kendini güvende hisseder."
+      },
+      {
+        "title": "Hızlı İlerleyen Süreç Yönetimi",
+        "description": "Gereksiz karmaşayı ortadan kaldıran net yönlendirmelerle süreç hızlı ve düzenli biçimde ilerletilir."
+      },
+      {
+        "title": "Kurumsal ve Profesyonel Yaklaşım",
+        "description": "Belge, onay, teslim ve iletişim aşamalarında ciddi, düzenli ve güven veren bir danışmanlık dili korunur."
+      }
+    ],
+    "cta": "Kurumsal Bilgileri İncele",
+    "imageAlt": "Kurumsal danışmanlık masasında iletişim ve belge hazırlık süreci"
+  },
+  "contact": {
+    "eyebrow": "Hızlı İletişim",
+    "title": "Süreci başlatmak veya detay almak için hemen iletişime geçin",
+    "description": "Ana sayfada özet iletişim bilgilerini görün, detaylı form ve ek bilgi için iletişim sayfasına geçin. WhatsApp erişimi her an elinizin altında olsun.",
+    "phoneLabel": "Telefon",
+    "phoneValue": "+1 (406) 578-6542",
+    "emailLabel": "E-Posta",
+    "emailValue": "Diplomailetişim@gmail.com",
+    "addressLabel": "Adres",
+    "addressValue": "Ankara",
+    "primaryCta": "WhatsApp ile Yazın",
+    "secondaryCta": "İletişim Sayfasına Git"
+  },
+  "whatsapp": {
+    "ariaLabel": "WhatsApp üzerinden iletişime geç"
+  }
+}

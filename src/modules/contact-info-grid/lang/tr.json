@@ -1,0 +1,13 @@
+{
+  "title": "İletişime Geçin",
+  "subtitle": "Bu metin iletişim bilgileri tablosunu tanıtır. Ziyaretçilerin size ulaşabilecekleri farklı yolları ve iletişim tercihleriniz veya müsaitliğinizle ilgili önemli detayları açıklayın. Promake ile iletişime geçmek için açık ve faydalı rehberlik sağlayın.",
+  "emailLabel": "E-posta",
+  "emailDesc": "Tüm e-postalara 24 saat içinde yanıt veriyoruz.",
+  "officeLabel": "Ofis",
+  "officeDesc": "Sohbet etmek için ofisimize uğrayın.",
+  "phoneLabel": "Telefon",
+  "phoneDesc": "Pazartesi-Cuma, 9:00-17:00 arası müsaitiz.",
+  "chatLabel": "Canlı Sohbet",
+  "chatDesc": "Destek ekibimizden anında yardım alın.",
+  "startChat": "Sohbet Başlat"
+}

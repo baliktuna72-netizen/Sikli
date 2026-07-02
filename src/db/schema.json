@@ -1,0 +1,304 @@
+{
+  "name": "promake",
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "defaultLanguage": "en",
+  "tables": {
+    "blog_categories": {
+      "$permissions": {
+        "anon": ["read"],
+        "user": ["read"],
+        "admin": ["read", "create", "update", "delete"]
+      },
+      "id": {
+        "type": "id"
+      },
+      "name": {
+        "type": "string",
+        "nullable": false,
+        "translatable": true
+      },
+      "slug": {
+        "type": "string",
+        "nullable": false,
+        "unique": true
+      },
+      "description": {
+        "type": "text",
+        "translatable": true
+      },
+      "image": {
+        "type": "text"
+      },
+      "created_at": {
+        "type": "timestamp"
+      },
+      "updated_at": {
+        "type": "timestamp"
+      }
+    },
+    "posts": {
+      "$permissions": {
+        "anon": ["read"],
+        "user": ["read"],
+        "admin": ["read", "create", "update", "delete"]
+      },
+      "id": {
+        "type": "id"
+      },
+      "title": {
+        "type": "string",
+        "nullable": false,
+        "translatable": true
+      },
+      "slug": {
+        "type": "string",
+        "nullable": false,
+        "unique": true
+      },
+      "content": {
+        "type": "text",
+        "nullable": false,
+        "translatable": true
+      },
+      "excerpt": {
+        "type": "text",
+        "translatable": true
+      },
+      "featured_image": {
+        "type": "text"
+      },
+      "images": {
+        "type": [
+          "string"
+        ]
+      },
+      "author": {
+        "type": "string",
+        "translatable": true
+      },
+      "author_avatar": {
+        "type": "text"
+      },
+      "created_at": {
+        "type": "timestamp"
+      },
+      "published_at": {
+        "type": "timestamp"
+      },
+      "updated_at": {
+        "type": "timestamp"
+      },
+      "tags": {
+        "type": [
+          "string"
+        ]
+      },
+      "categories": {
+        "type": [
+          "number"
+        ],
+        "ref": "blog_categories"
+      },
+      "read_time": {
+        "type": "int",
+        "default": 0
+      },
+      "view_count": {
+        "type": "int",
+        "default": 0
+      },
+      "featured": {
+        "type": "bool",
+        "default": false
+      },
+      "published": {
+        "type": "bool",
+        "default": true
+      },
+      "meta_description": {
+        "type": "text",
+        "translatable": true
+      },
+      "meta_keywords": {
+        "type": "text",
+        "translatable": true
+      }
+    },
+    "product_categories": {
+      "$permissions": {
+        "anon": ["read"],
+        "user": ["read"],
+        "admin": ["read", "create", "update", "delete"]
+      },
+      "id": {
+        "type": "id"
+      },
+      "name": {
+        "type": "string",
+        "nullable": false,
+        "translatable": true
+      },
+      "slug": {
+        "type": "string",
+        "nullable": false,
+        "unique": true
+      },
+      "description": {
+        "type": "text",
+        "translatable": true
+      },
+      "image": {
+        "type": "text"
+      },
+      "parent_id": {
+        "type": "int",
+        "ref": "product_categories"
+      },
+      "created_at": {
+        "type": "timestamp"
+      },
+      "updated_at": {
+        "type": "timestamp"
+      }
+    },
+    "products": {
+      "$permissions": {
+        "anon": ["read"],
+        "user": ["read"],
+        "admin": ["read", "create", "update", "delete"]
+      },
+      "id": {
+        "type": "id"
+      },
+      "name": {
+        "type": "string",
+        "nullable": false,
+        "translatable": true
+      },
+      "slug": {
+        "type": "string",
+        "nullable": false,
+        "unique": true
+      },
+      "description": {
+        "type": "text",
+        "translatable": true
+      },
+      "price": {
+        "type": "decimal",
+        "nullable": false
+      },
+      "sale_price": {
+        "type": "decimal"
+      },
+      "on_sale": {
+        "type": "bool",
+        "default": false
+      },
+      "images": {
+        "type": [
+          "string"
+        ]
+      },
+      "brand": {
+        "type": "string",
+        "translatable": true
+      },
+      "sku": {
+        "type": "string"
+      },
+      "stock": {
+        "type": "int",
+        "default": 5
+      },
+      "tags": {
+        "type": [
+          "string"
+        ]
+      },
+      "categories": {
+        "type": [
+          "number"
+        ],
+        "ref": "product_categories"
+      },
+      "rating": {
+        "type": "decimal",
+        "default": 0
+      },
+      "review_count": {
+        "type": "int",
+        "default": 0
+      },
+      "featured": {
+        "type": "bool",
+        "default": false
+      },
+      "is_new": {
+        "type": "bool",
+        "default": false
+      },
+      "published": {
+        "type": "bool",
+        "default": true
+      },
+      "specifications": {
+        "type": "json"
+      },
+      "variants": {
+        "type": [
+          {
+            "id": "string",
+            "name": "string",
+            "value": "string",
+            "price?": "number",
+            "image?": "string",
+            "stockQuantity": "number"
+          }
+        ]
+      },
+      "created_at": {
+        "type": "timestamp"
+      },
+      "updated_at": {
+        "type": "timestamp"
+      },
+      "meta_description": {
+        "type": "text",
+        "translatable": true
+      },
+      "meta_keywords": {
+        "type": "text",
+        "translatable": true
+      }
+    },
+    "forms": {
+      "$permissions": {
+        "anon": ["create"],
+        "user": ["create"],
+        "admin": ["read", "create", "update", "delete"]
+      },
+      "id": {
+        "type": "id"
+      },
+      "form_type": {
+        "type": "string",
+        "nullable": false,
+        "default": "contact"
+      },
+      "payload": {
+        "type": "json",
+        "nullable": false
+      },
+      "locale": {
+        "type": "string"
+      },
+      "created_at": {
+        "type": "timestamp"
+      }
+    }
+  }
+}

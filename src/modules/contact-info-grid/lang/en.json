@@ -1,0 +1,13 @@
+{
+  "title": "Get in Touch",
+  "subtitle": "This text introduces your contact information grid. Explain the different ways visitors can reach you and any important details about your contact preferences or availability. Use Promake to provide clear, helpful guidance for getting in touch.",
+  "emailLabel": "Email",
+  "emailDesc": "We respond to all emails within 24 hours.",
+  "officeLabel": "Office",
+  "officeDesc": "Drop by our office for a chat.",
+  "phoneLabel": "Phone",
+  "phoneDesc": "We're available Mon-Fri, 9am-5pm.",
+  "chatLabel": "Live Chat",
+  "chatDesc": "Get instant help from our support team.",
+  "startChat": "Start Chat"
+}

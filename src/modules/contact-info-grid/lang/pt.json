@@ -1,0 +1,13 @@
+{
+  "title": "Fale com a gente",
+  "subtitle": "Este texto apresenta sua grade de informações de contato. Explique as diferentes formas de falar com você e qualquer detalhe importante sobre sua disponibilidade. Use o Promake para oferecer orientações claras sobre como entrar em contato.",
+  "emailLabel": "E-mail",
+  "emailDesc": "Respondemos a todos os e-mails em até 24 horas.",
+  "officeLabel": "Escritório",
+  "officeDesc": "Passe no nosso escritório para um bate-papo.",
+  "phoneLabel": "Telefone",
+  "phoneDesc": "Atendemos de segunda a sexta, das 9h às 17h.",
+  "chatLabel": "Chat ao vivo",
+  "chatDesc": "Fale agora com alguém do nosso suporte.",
+  "startChat": "Iniciar chat"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Contact Us",
+  "subtitle": "This subtitle appears below your contact page heading. Use it to encourage visitors to reach out, explain your availability, or highlight your commitment to customer service. Customize with Promake to reflect your brand's communication style.",
+  "emailTitle": "Email",
+  "phoneTitle": "Phone",
+  "addressTitle": "Address",
+  "nameLabel": "Name",
+  "namePlaceholder": "Your name",
+  "emailLabel": "Email",
+  "emailPlaceholder": "your@email.com",
+  "messageLabel": "Message",
+  "messagePlaceholder": "How can we help you?",
+  "submit": "Send Message",
+  "sending": "Sending...",
+  "success": "Message sent successfully! We'll get back to you soon.",
+  "error": "Something went wrong. Please try again.",
+  "addFiles": "Add Files",
+  "maxFilesReached": "Maximum files reached",
+  "maxFilesLimit": "You can add up to {{max}} files"
+}

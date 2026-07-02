@@ -1,0 +1,20 @@
+{
+  "title": "Fale conosco",
+  "subtitle": "Este subtítulo aparece abaixo do título da sua página de contato. Use-o para convidar visitantes a entrar em contato, explicar sua disponibilidade ou destacar o seu compromisso com o atendimento. Personalize com o Promake para refletir o jeito da sua marca se comunicar.",
+  "emailTitle": "E-mail",
+  "phoneTitle": "Telefone",
+  "addressTitle": "Endereço",
+  "nameLabel": "Nome",
+  "namePlaceholder": "Seu nome",
+  "emailLabel": "E-mail",
+  "emailPlaceholder": "seu@email.com",
+  "messageLabel": "Mensagem",
+  "messagePlaceholder": "Como podemos te ajudar?",
+  "submit": "Enviar mensagem",
+  "sending": "Enviando...",
+  "success": "Mensagem enviada com sucesso! Vamos responder em breve.",
+  "error": "Algo deu errado. Tente novamente.",
+  "addFiles": "Adicionar arquivos",
+  "maxFilesReached": "Limite de arquivos atingido",
+  "maxFilesLimit": "Você pode adicionar até {{max}} arquivos"
+}

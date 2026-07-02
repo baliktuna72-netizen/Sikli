@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "functions": {
+    "search": { "roles": ["user"] },
+    "stripe-webhook": { "roles": ["anon"] },
+    "daily-digest": { "roles": ["admin"] }
+  },
+  "emails": {
+    "templates": [
+      { "name": "welcome", "subject": "Welcome" },
+      { "name": "confirmation", "subject": "Confirm your email" },
+      { "name": "recovery", "subject": "Reset your password" },
+      { "name": "notification", "subject": "Notification" }
+    ]
+  }
+}
